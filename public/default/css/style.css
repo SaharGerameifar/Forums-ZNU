@@ -1,0 +1,750 @@
+        @font-face {
+            font-family: iransansdn;
+            font-style: normal;
+            font-weight: bold;
+            src: url('../fonts/eot/iransansdnbold.eot');
+            src: url('../fonts/eot/iransansdnbold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+            url('../fonts/woff2/iransansdnbold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+            url('../fonts/woff/iransansdnbold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+            url('../fonts/ttf/iransansdnbold.ttf') format('truetype');
+        }
+        
+        @font-face {
+            font-family: iransansdn;
+            font-style: normal;
+            font-weight: 300;
+            src: url('../fonts/eot/iransansdnlight.eot');
+            src: url('../fonts/eot/iransansdnlight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+            url('../fonts/woff2/iransansdnlight.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+            url('../fonts/woff/iransansdnlight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+            url('../fonts/ttf/iransansdnlight.ttf') format('truetype');
+        }
+        
+        @font-face {
+            font-family: iransansdn;
+            font-style: normal;
+            font-weight: normal;
+            src: url('../fonts/eot/iransansdn.eot');
+            src: url('../fonts/eot/iransansdn.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+            url('../fonts/woff2/iransansdn.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+            url('../fonts/woff/iransansdn.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+            url('../fonts/ttf/iransansdn.ttf') format('truetype');
+        }
+        
+        * {
+            font-family: iransansdn;
+            text-align: right;
+            direction: rtl;
+            font-size: 0.95rem;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: none;
+        }
+        
+        .breadcrumb-item a {
+            color: black;
+        }
+        
+        .breadcrumb-item a:hover {
+            color: #6c757d;
+        }
+        /* start css style for index.php  */
+        
+         ::-webkit-scrollbar {
+            width: 1rem;
+        }
+        
+         ::-webkit-scrollbar-track {
+            background: white;
+            border-radius: 50px;
+        }
+        
+         ::-webkit-scrollbar-thumb {
+            background: #40ACF1;
+            border-radius: 50px;
+        }
+        
+         ::-webkit-scrollbar-button {
+            visibility: hidden;
+        }
+        
+        .preloader {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            z-index: 1000;
+        }
+        
+        .preloader img {
+            width: 35%;
+            /* height: 35%; */
+        }
+        
+        .preloader p {
+            text-align: center;
+            font-size: 0.8rem;
+        }
+        
+        .hidpreloader {
+            display: none !important;
+        }
+        
+        .navbar-brand {
+            font-size: 0.70rem !important;
+            color: rgba(219, 196, 196, 0.973)!important;
+        }
+        
+        .navbar-brand:hover {
+            color: white !important;
+        }
+        
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 0.8rem;
+            padding-left: 0.8rem;
+        }
+        
+        a.nav-link {
+            color: rgba(219, 196, 196, 0.973)!important;
+        }
+        
+        a.nav-link:hover {
+            color: white !important;
+            cursor: pointer;
+        }
+        
+        .nav-item {
+            float: right;
+        }
+        
+        a.dropdown-item {
+            text-align: right;
+            direction: rtl;
+        }
+        
+        .navbar-icon {
+            font-size: 1.3rem;
+            color: rgba(219, 196, 196, 0.973)!important;
+        }
+        
+        .navbar-toggler {
+            outline-color: rgba(219, 196, 196, 0.973) !important;
+        }
+        
+        .header-login {
+            font-size: 0.8rem;
+            color: rgba(219, 196, 196, 0.973)!important;
+        }
+        
+        a.header-login-link {
+            font-size: 0.9rem;
+            color: black;
+            padding: 0.3rem 0.9rem;
+            font-weight: 500;
+        }
+        
+        .placholder {
+            font-size: 0.80rem;
+            padding-right: 20px;
+        }
+        
+        .form-search {
+            padding: 0 auto!important;
+        }
+        
+        .search-box {
+            width: 60%!important;
+            border-radius: 40px;
+        }
+        
+        .search-icon {
+            color: rgba(51, 51, 51, 0.596);
+            font-size: 1.2rem;
+            margin-right: -2.5rem;
+            transition: all 1s ease-in-out;
+        }
+        
+        .search-icon:hover {
+            color: rgb(255, 196, 0);
+            transform: translateY(-10%);
+        }
+        
+        header {
+            overflow: hidden;
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+        }
+        
+        .info-icon {
+            font-size: 2.7rem;
+            color: rgba(219, 196, 196, 0.973);
+        }
+        
+        .info-icon:hover {
+            color: rgb(255, 196, 0);
+        }
+        
+        .info-site:hover p {
+            color: rgb(255, 196, 0);
+        }
+        
+        .info-site {
+            text-align: center!important;
+            animation: all 2s ease-in-out;
+        }
+        
+        .info-site:hover {
+            transform: scale(1.2, 1.2);
+        }
+        
+        .info-site p {
+            text-align: center!important;
+            font-size: 0.7rem;
+            padding-top: 0.3rem;
+            color: rgba(219, 196, 196, 0.973);
+        }
+        
+        .course .course-link {
+            color: black;
+            font-weight: bold;
+            font-size: 0.9rem;
+            cursor: pointer;
+            padding: 1rem 1rem;
+            max-height: 3rem;
+            height: 3rem;
+            display: flex;
+        }
+        
+        .course .course-link:hover {
+            color: rgba(219, 196, 196, 0.973);
+        }
+        
+        .course img {
+            max-height: 15rem;
+            width: 100%;
+            height: 15rem;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        .course {
+            border: 1px solid rgba(219, 196, 196, 0.973);
+            margin-top: 5rem;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        .course p {
+            max-height: 6.5rem;
+            height: 6.5rem;
+            font-size: .8rem;
+            line-height: 1.4rem;
+            padding: 1rem 1rem;
+            text-align: justify;
+        }
+        
+        .course-caption {
+            padding-top: 0.5rem;
+            padding-bottom: 0.8rem;
+        }
+        
+        .seen-caption,
+        .seen-comment,
+        .seen-writer {
+            color: rgba(119, 72, 72, 0.973);
+            font-size: .8rem;
+            padding: 1rem 1rem;
+            max-height: 3rem;
+            height: 3rem;
+        }
+        
+        .course-item {
+            background: yellow;
+            position: relative;
+            cursor: pointer;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        .course-img {
+            transition: all 1s ease-in-out;
+        }
+        
+        .course-item:hover .course-img {
+            opacity: 0.5;
+        }
+        
+        .course-item::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            outline: 0.3rem solid white;
+            outline-offset: -2rem;
+            transition: all 1s ease-in-out;
+            transform: scale(0);
+        }
+        
+        .course-item:hover:after {
+            transform: scale(1);
+        }
+        
+        .hover-course {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-top: 30%;
+            margin-right: 20%;
+        }
+        
+        .hover-course a {
+            color: white;
+            font-weight: bold;
+            font-size: 1rem!important;
+        }
+        
+        .hover-course span {
+            font-size: 1rem!important;
+            display: none;
+        }
+        
+        .course-item:hover .hover-course span {
+            display: block;
+            z-index: 5;
+        }
+        
+        .contact {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../image/contact.jpg')center/cover fixed no-repeat;
+        }
+        
+        .contact-input {
+            background: transparent;
+            border: yellow solid 0.02rem;
+            font-size: 1.5rem;
+            color: yellow!important;
+        }
+        
+        .contact-input::placeholder {
+            color: yellow!important;
+        }
+        
+        .contact-input:hover {
+            background: transparent;
+        }
+        
+        .contact-input:focus {
+            background: transparent;
+            border: yellow solid 0.02rem;
+        }
+        
+        .contact-btn {
+            text-transform: uppercase;
+            color: yellow;
+            border-color: yellow;
+        }
+        
+        .contact-btn:hover {
+            background: yellow;
+            color: black;
+        }
+        
+        .footer-icon {
+            display: block;
+            color: yellow;
+            font-size: 1.5rem;
+            text-decoration: none;
+            transition: all 1s ease-in-out;
+            padding: 0.5rem 0;
+        }
+        
+        .footer-icon:hover {
+            color: rgba(219, 196, 196, 0.973);
+            transform: scale(0.8, 0.8);
+        }
+        
+        .footer-link {
+            display: block;
+            color: rgba(219, 196, 196, 0.973);
+            font-size: 0.8rem;
+            text-decoration: none;
+            transition: all 1s ease-in-out;
+            padding: 0.5rem 0;
+        }
+        
+        .footer-link:hover {
+            color: white;
+            transform: scale(0.8, 0.8);
+        }
+        
+        .link-footer-title1 {
+            display: inline-block;
+            font-size: 0.9rem;
+            color: rgba(219, 196, 196, 0.973);
+            border-bottom: 1px solid rgba(219, 196, 196, 0.973);
+            padding: 0.3rem 0;
+        }
+        
+        .link-footer-title2 {
+            display: inline-block;
+            font-size: 0.9rem;
+            color: yellow;
+            border-bottom: 1px solid yellow;
+            padding: 0.3rem 0;
+        }
+        
+        .footer-privacy {
+            font-size: 0.6rem;
+            color: rgba(219, 196, 196, 0.973);
+            margin-bottom: 0;
+            text-align: center;
+        }
+        
+        .footer-privacy-link {
+            display: block;
+            text-align: center;
+        }
+        
+        .footer-privacy-link span {
+            font-size: 0.6rem;
+            color: rgba(219, 196, 196, 0.973);
+            text-align: center;
+        }
+        
+        .footer2 {
+            background-color: black;
+        }
+        
+        .nav_top span {
+            border-radius: 100%;
+            padding: 1rem;
+            margin-top: -1.7rem;
+            border: 5px solid rgba(219, 196, 196, 0.973);
+            color: rgba(138, 102, 102, 0.973);
+            font-weight: bold;
+            transition: all 0.5s ease-in-out;
+        }
+        
+        .nav_top span:hover {
+            transition: all 0.5s ease-in-out;
+            transform: scale(1.2, 1.2);
+            border: 5px dashed rgba(219, 196, 196, 0.973);
+        }
+        /* end css style for index.php  */
+        /* start css style for single.php  */
+        
+        .content-title {
+            font-size: 1.2rem;
+            font-weight: 500;
+            background: yellow;
+            padding: 0.5rem 2rem;
+            clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+        }
+        
+        .content-course-item {
+            padding: 1rem;
+            border: 1px solid rgba(219, 196, 196, 0.973);
+            border-radius: 10px;
+            max-width: 65%;
+        }
+        
+        .content-course-image {
+            text-align: center !important;
+        }
+        
+        .content-course-image img {
+            max-width: 100%;
+            border-radius: 10px 10px 200px 10px;
+        }
+        
+        .content-link {
+            color: black;
+            font-weight: bold;
+            font-size: 1.3rem;
+            cursor: pointer;
+            display: block;
+            padding: 1rem;
+        }
+        
+        .content-link:hover {
+            color: rgba(219, 196, 196, 0.973);
+        }
+        
+        .content-caption p {
+            font-size: 1rem;
+            line-height: 2rem;
+            padding: 0.05rem 1rem;
+            text-align: justify;
+        }
+        
+        .content-tag {
+            margin: 0.3rem;
+        }
+        
+        .content-tag span {
+            background-color: rgba(219, 196, 196, 0.973);
+            padding: 0.7rem 1rem;
+            border-radius: 10px;
+            font-size: .8rem;
+            text-align: center;
+            margin: 0.3rem;
+        }
+        
+        .content-tag span:hover {
+            background-color: black;
+            color: rgba(219, 196, 196, 0.973);
+        }
+        
+        .comment-img img {
+            border-radius: 50%;
+            border: 1px solid rgba(219, 196, 196, 0.973);
+            width: 100%;
+        }
+        
+        .comment-text {
+            border: 1px solid rgba(219, 196, 196, 0.973);
+        }
+        
+        .comment-text p {
+            font-size: .7rem;
+            margin-top: 1rem!important;
+            margin-bottom: 1rem!important;
+            line-height: 1.3rem;
+        }
+        
+        .comment-text span {
+            font-size: .6rem;
+            opacity: 0.8;
+        }
+        
+        .comment-text a {
+            font-size: .6rem;
+            padding: 5px;
+        }
+        /* end css style for single.php  */
+        /* start css style for register.php  */
+        
+        .register-title {
+            display: block;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        
+        .register input {
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            outline: none;
+        }
+        /* end css style for register.php  */
+        /* start css style for about.php  */
+        
+        .about-title {
+            display: block;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        
+        .about-text {
+            font-size: .8rem;
+            line-height: 1.4rem;
+            padding: 1rem 1rem;
+            text-align: justify;
+        }
+        
+        .item-img {
+            background: yellow;
+            position: relative;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        
+        .team-img {
+            transition: all 1s ease-in-out;
+            border-radius: 10px;
+            max-height: 15rem;
+            width: 100%;
+            height: 15rem;
+        }
+        
+        .item-img:hover .team-img {
+            opacity: 0.5;
+        }
+        
+        .item-img::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            outline: 0.3rem solid white;
+            outline-offset: -1.5rem;
+            transition: all 1s ease-in-out;
+            transform: scale(0);
+        }
+        
+        .item-img:hover:after {
+            transform: scale(1);
+        }
+        
+        .hover-item {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-top: 30%;
+            margin-right: 20%;
+        }
+        
+        .hover-item h5,
+        .hover-item p {
+            font-size: 1rem!important;
+            color: black;
+            display: none;
+            font-weight: bold;
+        }
+        
+        .item-img:hover .hover-item h5,
+        .item-img:hover .hover-item p {
+            display: block;
+            z-index: 5;
+        }
+        /* end css style for about.php  */
+        /* start css style for contact.php  */
+        
+        .contact-title {
+            display: block;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        
+        .contact-sub-title {
+            display: block;
+            margin-bottom: 1.5rem;
+            text-align: right;
+            font-size: 1.1rem;
+        }
+        
+        .contact-icon {
+            font-size: 2rem!important;
+            color: black;
+            padding-left: 1rem;
+        }
+        
+        .contact-icon:hover {
+            color: rgba(219, 196, 196, 0.973);
+        }
+        /* end css style for contact.php  */
+        /* start css style for introduction.php  */
+        
+        .itroduction-title {
+            display: block;
+            margin-bottom: 1.5rem;
+            margin-left: 15rem;
+            margin-right: 15rem;
+            text-align: center;
+            font-size: 1.5rem;
+            background: yellow;
+            padding: 0.5rem 2rem;
+            clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+            transition: all 1s ease-in-out;
+        }
+        
+        .itroduction-title:hover {
+            clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 10% 100%);
+        }
+        
+        .itroduction-teacher {
+            display: block;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        
+        .itroduction p {
+            text-align: justify;
+            line-height: 2.5rem;
+            padding: 0 3rem;
+        }
+        
+        .teacher-img {
+            background: yellow;
+            position: relative;
+            cursor: pointer;
+            height: 15rem;
+            max-height: 15rem;
+            width: 100%;
+            border-radius: 10px;
+        }
+        
+        .teacher-img {
+            height: 15rem;
+            max-height: 15rem;
+            border-radius: 10px;
+            transition: all 1s ease-in-out;
+        }
+        
+        .teacher-img:hover .teacher-img {
+            opacity: 0.5;
+        }
+        
+        .teacher-img::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            outline: 0.3rem solid white;
+            outline-offset: -2rem;
+            transition: all 1s ease-in-out;
+            transform: scale(0);
+        }
+        
+        .teacher-img:hover:after {
+            transform: scale(1);
+        }
+        
+        .hover-teacher {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-top: 30%;
+            margin-right: 20%;
+        }
+        
+        .hover-teacher h5 {
+            font-size: 1.1rem!important;
+            color: black;
+            display: none;
+            font-weight: bold;
+        }
+        
+        .teacher-img:hover .hover-teacher h5 {
+            display: block;
+            z-index: 5;
+        }
+        
+        .hover-teacher p {
+            font-size: 0.9rem!important;
+            color: black;
+            display: none;
+        }
+        
+        .teacher-img:hover .hover-teacher p {
+            display: block;
+            z-index: 5;
+        }
+        
+        .introduction_section {
+            border: 1px solid rgba(219, 196, 196, 0.973);
+            padding: 2.5rem;
+            margin-top: 2rem;
+            border-radius: 10px;
+        }

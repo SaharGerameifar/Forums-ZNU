@@ -1,0 +1,157 @@
+        @font-face {
+            font-family: iransansdn;
+            font-style: normal;
+            font-weight: bold;
+            src: url('../fonts/eot/iransansdnbold.eot');
+            src: url('../fonts/eot/iransansdnbold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+            url('../fonts/woff2/iransansdnbold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+            url('../fonts/woff/iransansdnbold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+            url('../fonts/ttf/iransansdnbold.ttf') format('truetype');
+        }
+        
+        @font-face {
+            font-family: iransansdn;
+            font-style: normal;
+            font-weight: 300;
+            src: url('../fonts/eot/iransansdnlight.eot');
+            src: url('../fonts/eot/iransansdnlight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+            url('../fonts/woff2/iransansdnlight.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+            url('../fonts/woff/iransansdnlight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+            url('../fonts/ttf/iransansdnlight.ttf') format('truetype');
+        }
+        
+        @font-face {
+            font-family: iransansdn;
+            font-style: normal;
+            font-weight: normal;
+            src: url('../fonts/eot/iransansdn.eot');
+            src: url('../fonts/eot/iransansdn.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+            url('../fonts/woff2/iransansdn.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+            url('../fonts/woff/iransansdn.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+            url('../fonts/ttf/iransansdn.ttf') format('truetype');
+        }
+        
+        * {
+            font-family: iransansdn;
+            text-align: right;
+            direction: rtl;
+            font-size: 0.95rem;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: none;
+        }
+        
+        .navbar-brand {
+            font-size: 0.70rem !important;
+            color: rgba(219, 196, 196, 0.973)!important;
+        }
+        
+        .navbar-brand:hover {
+            color: white !important;
+        }
+        
+        .navbar .navbar-nav .nav-link {
+            padding-top: 0.8rem;
+            padding-bottom: 0.8rem;
+        }
+        
+        a.nav-link {
+            color: rgba(219, 196, 196, 0.973)!important;
+        }
+        
+        a.nav-link:hover {
+            color: white !important;
+            cursor: pointer;
+        }
+        
+        .nav-item {
+            float: right;
+        }
+        
+        a.dropdown-item {
+            text-align: right;
+            direction: rtl;
+        }
+        
+        .navbar-icon {
+            font-size: 1.3rem;
+            color: rgba(219, 196, 196, 0.973)!important;
+        }
+        
+        .navbar-toggler {
+            outline-color: rgba(219, 196, 196, 0.973) !important;
+        }
+        
+        .my-img-show {
+            text-align: center !important;
+        }
+        
+        .my-img-show img {
+            width: 80%;
+            max-width: 80%;
+            border-radius: 10px;
+            border: 1px solid rgba(219, 196, 196, 0.973);
+        }
+        
+        .my-body-show {
+            line-height: 2rem;
+            padding: 1rem 1rem;
+            text-align: justify;
+        }
+        
+        .content-tag {
+            margin: 0.3rem;
+        }
+        
+        .content-tag span {
+            background-color: rgba(219, 196, 196, 0.973);
+            padding: 0.3rem 0.5rem;
+            border-radius: 10px;
+            font-size: .7rem;
+            text-align: center;
+            margin: 0.3rem;
+        }
+        
+        .content-tag span:hover {
+            background-color: black;
+            color: rgba(219, 196, 196, 0.973);
+        }
+        
+        .my-body-show div {
+            background-color: #fff;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 2rem;
+            color: #495057;
+            text-align: justify;
+        }
+        
+        .upload-label {
+            text-align: left;
+            border-radius: 0.25rem 0 0 0.25rem
+        }
+        
+        .upload-input {
+            border-radius: 0rem;
+        }
+        
+        .custom-file {
+            border-radius: 0rem;
+        }
+        
+        .crud {
+            text-align: center;
+        }
+        
+        .show-writer-comment {
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+        }
